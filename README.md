@@ -4,8 +4,6 @@ Homebrew tap for Viget tools. Currently includes one formula:
 
 - `tess` — Generate Lattice review summaries; optional Drive upload via rclone.
 
-Repository: https://github.com/vigetlabs/homebrew-taps
-
 ## Install
 
 Prereqs: macOS (Apple Silicon/arm64) with Homebrew installed.
