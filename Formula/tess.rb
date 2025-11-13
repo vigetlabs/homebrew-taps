@@ -5,7 +5,7 @@
 class Tess < Formula
   desc "Generate Lattice review summaries; optional Drive upload via rclone."
   homepage "https://github.com/vigetlabs/tess"
-  version "0.1.1"
+  version "0.1.2"
 
   depends_on "pandoc"
   depends_on "rclone"
@@ -13,8 +13,8 @@ class Tess < Formula
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/vigetlabs/tess/releases/download/v0.1.1/tess_darwin_arm64_v0.1.1.tar.gz"
-    sha256 "b0fd17e4c510d85902e829d863def93c50048f7cb66f19f7ed8fe757963028a9"
+    url "https://github.com/vigetlabs/tess/releases/download/v0.1.2/tess_darwin_arm64_v0.1.2.tar.gz"
+    sha256 "8ab3dac66f388f838430423be8ec37d22619cca212f40e9971cce7cc9916734e"
 
     def install
       bin.install "tess"
